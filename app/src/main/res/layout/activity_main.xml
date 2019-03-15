@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#ff0000">
+        android:id="@+id/rojo"
+        android:background="@color/rojo1">
 
     </LinearLayout>
 
@@ -19,14 +20,16 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#00ff00">
+        android:id="@+id/verde"
+        android:background="@color/verde1">
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:id="@+id/azul"
         android:layout_weight="1"
-        android:background="#0000ff">
+        android:background="@color/azul1">
 
     </LinearLayout>
 </LinearLayout>
